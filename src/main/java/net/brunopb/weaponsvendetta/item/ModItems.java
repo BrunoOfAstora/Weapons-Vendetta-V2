@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> SAPHIRA = ITEMS.register("saphira",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SAPHIRA_ORE = ITEMS.register("saphira_ore",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> TOPAZIO = ITEMS.register("topazio",
             () -> new Item(new Item.Properties()));
 

@@ -14,13 +14,14 @@ public class ModCreativeModeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WeaponsVendetta.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("saphira_tab",
             () -> CreativeModeTab.builder().icon(() -> new  ItemStack(ModItems.SAPHIRA.get()))
-                    .title(Component.translatable("creativetab.tutorial_tab"))
+                    .title(Component.translatable("WeaponsVendetta"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPHIRA.get());
                         pOutput.accept(ModItems.RUBI.get());
                         pOutput.accept(ModItems.TOPAZIO.get());
+                        pOutput.accept(ModItems.SAPHIRA_ORE.get());
 
                         pOutput.accept(ModBlocks.SAPHIRA_BLOCK.get());
                         pOutput.accept(ModBlocks.RUBI_BLOCK.get());
