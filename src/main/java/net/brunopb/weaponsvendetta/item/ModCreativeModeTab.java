@@ -23,6 +23,7 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.TOPAZIO.get());
 
                         pOutput.accept(ModBlocks.SAPHIRA_BLOCK.get());
+                        pOutput.accept(ModBlocks.RUBI_BLOCK.get());
                     })
                     .build());
 
