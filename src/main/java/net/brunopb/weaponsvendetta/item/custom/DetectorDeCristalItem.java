@@ -1,5 +1,6 @@
 package net.brunopb.weaponsvendetta.item.custom;
 
+import net.brunopb.weaponsvendetta.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -8,7 +9,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
 public class DetectorDeCristalItem extends Item {
@@ -53,6 +53,6 @@ public class DetectorDeCristalItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.AMETHYST_CLUSTER) || state.is(Blocks.EMERALD_ORE);
+        return state.is(ModTags.Blocks.DETECTOR_DE_CRISTAL);
     }
 }
