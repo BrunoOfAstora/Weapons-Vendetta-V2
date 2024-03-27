@@ -24,6 +24,9 @@ public class ModItems {
     public static final RegistryObject<Item> RUBI = ITEMS.register("rubi",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RUBI_APPLE = ITEMS.register("rubi_apple",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> DETECTOR_DE_CRISTAL = ITEMS.register("detector_de_cristal",
             () -> new DetectorDeCristalItem(new Item.Properties().durability(100)));
 

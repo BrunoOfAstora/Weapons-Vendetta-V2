@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "weaponsvendetta:item/detector_de_cristal"
-  }
-}

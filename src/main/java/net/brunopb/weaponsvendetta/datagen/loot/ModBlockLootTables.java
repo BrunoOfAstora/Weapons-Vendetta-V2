@@ -23,7 +23,7 @@ import java.util.Set;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
 
-    protected ModBlockLootTables() {
+    public ModBlockLootTables() {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
     }
 
@@ -40,7 +40,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         return createSilkTouchDispatchTable(pBlock,
                 (LootPoolEntryContainer.Builder)this.applyExplosionDecay
                         (pBlock, LootItem.lootTableItem(item).apply
-                                (SetItemCountFunction.setCount(UniformGenerator.between(4.0F, 5.0F))).apply
+                                (SetItemCountFunction.setCount(UniformGenerator.between(3.0F, 5.0F))).apply
                                 (ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE))));
     }
 
