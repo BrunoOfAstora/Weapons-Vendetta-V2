@@ -23,6 +23,7 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.TOPAZIO.get());
                         pOutput.accept(ModItems.SAPHIRA_ORE.get());
                         pOutput.accept(ModItems.DETECTOR_DE_CRISTAL.get());
+                        pOutput.accept(ModItems.RUBI_APPLE.get());
 
                         pOutput.accept(ModBlocks.SAPHIRA_BLOCK.get());
                         pOutput.accept(ModBlocks.RUBI_BLOCK.get());

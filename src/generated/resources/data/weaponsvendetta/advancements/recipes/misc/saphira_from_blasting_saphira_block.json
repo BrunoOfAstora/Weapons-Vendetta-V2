@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_saphira_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "weaponsvendetta:saphira_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "weaponsvendetta:saphira_from_blasting_saphira_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_saphira_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "weaponsvendetta:saphira_from_blasting_saphira_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

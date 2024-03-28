@@ -1,0 +1,4 @@
+// 1.20.1	2024-03-28T10:37:52.4112229	Tags for minecraft:block mod id weaponsvendetta
+5927040215e434f1e0682ac592fe352fd1aa967e data/minecraft/tags/blocks/mineable/pickaxe.json
+9950109070410f366699143a4a7d43909a0be6c5 data/minecraft/tags/blocks/needs_iron_tool.json
+2627f402bfc0d97bfb2ef3d9eb2c5082d60167b9 data/weaponsvendetta/tags/blocks/detector_de_cristal.json

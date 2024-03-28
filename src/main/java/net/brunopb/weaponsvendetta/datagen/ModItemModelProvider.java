@@ -20,7 +20,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SAPHIRA);
         simpleItem(ModItems.RUBI);
         simpleItem(ModItems.TOPAZIO);
+        simpleItem(ModItems.SAPHIRA_ORE);
         simpleItem(ModItems.DETECTOR_DE_CRISTAL);
+        simpleItem(ModItems.RUBI_APPLE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
