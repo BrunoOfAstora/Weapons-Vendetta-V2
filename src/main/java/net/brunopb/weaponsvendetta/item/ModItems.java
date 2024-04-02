@@ -3,6 +3,7 @@ package net.brunopb.weaponsvendetta.item;
 import net.brunopb.weaponsvendetta.WeaponsVendetta;
 import net.brunopb.weaponsvendetta.item.custom.DetectorDeCristalItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -29,6 +30,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> DETECTOR_DE_CRISTAL = ITEMS.register("detector_de_cristal",
             () -> new DetectorDeCristalItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> SAPHIRA_SWORD = ITEMS.register("saphira_sword",
+            () -> new SwordItem(ModToolTiers.SAPHIRA, 4, 4, new Item.Properties()));
 
 
 

@@ -23,6 +23,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SAPHIRA_ORE);
         simpleItem(ModItems.DETECTOR_DE_CRISTAL);
         simpleItem(ModItems.RUBI_APPLE);
+
+        handheldItem(ModItems.SAPHIRA_SWORD);
+
+    }
+
+    private ItemModelBuilder handheldItem (RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheldItem")).texture("layer0",
+                new ResourceLocation(WeaponsVendetta.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
